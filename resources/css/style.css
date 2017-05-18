@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.9;
+  }
+
+.flex-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+tc-header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+
+tc-header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+    color: seashell;
+}
+
+.tc-container {
+    width: 1200px;
+    padding-top: 69px;
+    opacity: 0.9;
+    margin: auto;
+}
+
+#tc-mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/img-mission-background.jpg");
+    padding-top: 70px;
+}
+
+#tc-mission .content {
+    width: 1200px;
+    margin: auto;
+    background-color: black;
+}
+
+#tc-store {
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+#tc-locations {
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    padding-top: 50px;
+}
+
+.flex-content.tc-locations {
+    padding-top: 5px;
+}
+
+#tc-locations .flex-content {
+    margin: auto;
+}
+
+.location {
+    opacity: 1.0;
+    padding: 20px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    display: block;
+    margin-before: 1em;
+    margin-after: 1em;
+}
+
+.tea {
+    padding: 5px;
+}
+
+.tea img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+.tea span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+h5 {
+    display: block;
+    font-weight: bold;
+}
+
+#tc-contact {
+    height: 200px;
+}
+
+tc-footer {
+    text-align: left;
+    padding-left: 20px;
+}
